@@ -63,7 +63,7 @@ nav .menu_right li {
     margin-left: 10px;
 }
 
-.menu_right li:last-child a {
+.download_cta a {
     padding: 10px;
     background-color: #eb008d;
     border: 2px solid #eb008d;
@@ -86,7 +86,7 @@ nav .menu_right li {
     color: black;
 }
 
-.menu_right li:last-child a:hover {
+.download_cta a:hover {
     background-color: white;
     color: black;
 }
