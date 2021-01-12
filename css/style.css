@@ -8,7 +8,7 @@
 
 nav, .container_left, .container_right {
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 nav {
@@ -37,6 +37,10 @@ nav .menu_left li, nav .menu_right li {
     margin: auto 20px;
 }
 
+nav .menu_right li {
+    padding: 10px;
+}
+
 .logo {
     height: 40px;
 }
@@ -54,6 +58,32 @@ nav .menu_left li, nav .menu_right li {
 
 /* hover */
 
-a:hover {
+.menu_right a:hover {
     color: black;
+}
+
+.menu_right li:nth-last-child(2):hover i {
+    transform: rotate(180deg);
+}
+
+/* box menu */
+
+.box {
+    border: 2px solid lightgray;
+    padding: 20px;
+    position: absolute;
+    top: 50px;
+    transform: translate(-25%);
+    box-shadow: 2px 2px 2px grey;
+    color: #adadad;
+    display: none;
+}
+
+.box .box_item li {
+    display: block;
+    line-height: 3;
+}
+
+.display_block {
+    display: block;
 }
