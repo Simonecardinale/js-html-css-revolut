@@ -38,7 +38,7 @@ nav .menu_left li, nav .menu_right li {
 }
 
 nav .menu_right li {
-    padding: 10px;
+    padding: 20px 10px;
     position: relative;
 }
 
@@ -49,7 +49,7 @@ nav .menu_right li {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     position: absolute;
-    margin-top: 22px;
+    margin-top: 11px;
     left: 50%;
     transform: translate(-50%, -100%);
     display: none;
