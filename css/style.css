@@ -101,7 +101,7 @@ nav .menu_right li {
 
 .box .box_item li {
     display: block;
-    line-height: 1.3;
+    padding: 10px;
 }
 
 .display_block {
@@ -117,7 +117,7 @@ nav .menu_right li {
     color: #eb008d;
     font-size: 15px;
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
 }
 
 .add_after_nuovo::after {
@@ -125,5 +125,5 @@ nav .menu_right li {
     color: #eb008d;
     font-size: 15px;
     position: absolute;
-    bottom: 20px
+    bottom: 30px
 }
