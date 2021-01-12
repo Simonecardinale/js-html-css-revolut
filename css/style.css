@@ -66,6 +66,7 @@ nav .menu_right li {
 .menu_right li:last-child a {
     padding: 10px;
     background-color: #eb008d;
+    border: 2px solid #eb008d;
     border-radius: 30px;
     color: white;
 }
@@ -82,6 +83,11 @@ nav .menu_right li {
 
 .box .box_item li:hover {
     cursor: pointer;
+    color: black;
+}
+
+.menu_right li:last-child a:hover {
+    background-color: white;
     color: black;
 }
 
